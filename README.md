@@ -31,3 +31,7 @@ Update 1.2:
 -Set the padding (space around the search text) to 5px and searchbox height to 10px since that felt the closest to Google's original setting. (check .search css for more info)
 -Tried to make the searchbox a circle by setting top and left radii to 16px.
 -Added a Google Voice Search logo as search button, however neither regular nor the voice search will be non-functional for this project and they stay there as placeholders.
+
+Update 1.3:
+
+-Aligned the logo and the search bar in the middle of the page, a little to the top just like google homepage.
