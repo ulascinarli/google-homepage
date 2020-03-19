@@ -26,11 +26,11 @@ html {
 
 .searchTerm {
     width: 100%;
-    border: 3px solid #cdcbbe;
+    border: 1px solid #cdcbbe;
     border-right: none;
     border-left: none;
     padding: 5px;
-    height: 20px;
+    height: 30px;
     outline: none;
     color: #444343;
 }
@@ -41,8 +41,8 @@ html {
 
 .voiceSearch {
     width: 40px;
-    height: 36px;
-    border: 3px solid #cdcbbe;
+    height: 42px;
+    border: 1px solid #cdcbbe;
     background: url(../images/miccursor.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -52,10 +52,14 @@ html {
     font-size: 20px;
 }
 
+.voiceSearch button:focus {
+    outline: 0;
+} 
+
 .searchButton {
     width: 40px;
-    height: 36px;
-    border: 3px solid #cdcbbe;
+    height: 42px;
+    border: 1px solid #cdcbbe;
     background: url(../images/srccursor.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -64,6 +68,10 @@ html {
     cursor: pointer;
     font-size: 20px;
 }
+
+.searchButton button:focus {
+    outline: 0;
+} 
 
 .feelingLucky{
     width: 400px;

@@ -39,3 +39,7 @@ Update 1.3:
 -Removed all visuals except the text from the buttons and made them gray in color.
 -Added a hover animation where it creates a box around the button and prevented the browser from creating a scrollbar/blue box around the buttons. Added a custom 1px blue box animation when the button is clicked and hold.
 -Removed the left border as well from the search bar and instead added a magnifier search icon just like on the actual page.
+
+Update 1.4:
+
+-Small cosmetic updates.
