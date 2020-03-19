@@ -43,3 +43,17 @@ Update 1.3:
 Update 1.4:
 
 -Small cosmetic updates.
+
+Update 1.5:
+
+-Added the hover effect on search bar, voice search and search magnifier boxes. it adds a feathered shadow at the bottom of the boxes and makes the top line even thinner. Achieved the thinness by decreasing the color opacity since the line was already at 1px.
+
+
+Known Bugs to Fix:
+
+-Right border of search magnifier box and left border of voice search box are visible when the hover effect applies. Might use JavaScript instead of CSS to fix it.
+
+What to Add in Next Updates:
+
+-Gmail, images, apps and user tabs that can be seen on the original Google homepage.
+-A clone of the footer on the actual webpage.
