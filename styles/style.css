@@ -3,3 +3,47 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.searchbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 3px solid #cdcbbe;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    color: #444343;
+}
+
+.searchTerm:focus {
+    color: #161616;    
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 3px solid #cdcbbe;
+    background: url(../images/miccursor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: none;
+    border-radius: 0 16px 16px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
