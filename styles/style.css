@@ -123,3 +123,62 @@ html {
 	outline: 0; 
 } /*prevents browser to add an ugly permanent blue box around the button after clicking it*/
 
+.navbar {
+    position: absolute;
+    bottom: 93%;
+    left: 88%;
+}
+
+ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        overflow: hidden;
+}
+
+li {
+    float: left;
+    padding: 8px;
+}
+
+li a {
+    color: rgb(0, 0, 0);
+    padding: 0px 0px;
+    text-decoration: none;
+    font-size: 13.5px;
+}
+
+.navbar a.apps {
+    opacity: 0.0;
+    font-size: 5px;
+    padding-right: 15px;
+}
+
+.navbar li.apps {
+    background: url("../images/apps.png") no-repeat;
+    background-position: center;
+}
+
+.navbar li.apps:hover {
+    background: url("../images/apps_hover.png") no-repeat;
+    background-position: center;
+}
+
+.navbar a.user {
+    opacity: 0.0;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.navbar li.user {
+    background: url("../images/u.png") no-repeat;
+    background-size: 32px 32px;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: center;
+    height: 16px;
+    width: 16px;
+    z-index: 0;
+}

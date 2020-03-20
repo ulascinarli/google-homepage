@@ -48,6 +48,10 @@ Update 1.5:
 
 -Added the hover effect on search bar, voice search and search magnifier boxes. it adds a feathered shadow at the bottom of the boxes and makes the top line even thinner. Achieved the thinness by decreasing the color opacity since the line was already at 1px.
 
+Update 1.6:
+
+-Created the navigation bar on the top right with the Gmail, Images text links and Apps hover link + User settings link with iconic U icon.
+
 
 Known Bugs to Fix:
 
