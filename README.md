@@ -52,12 +52,12 @@ Update 1.6:
 
 -Created the navigation bar on the top right with the Gmail, Images text links and Apps hover link + User settings link with iconic U icon.
 
+Update 1.7 (final):
+
+-Created the left and right footers and styled the links for color and font size. There's also a simple CSS where the links are underlined when hovered over them with the mouse.
+-Changed the User icon for a Sign In button and added a CSS where it turns it's color darker when activated.
+
 
 Known Bugs to Fix:
 
 -Right border of search magnifier box and left border of voice search box are visible when the hover effect applies. Might use JavaScript instead of CSS to fix it.
-
-What to Add in Next Updates:
-
--Gmail, images, apps and user tabs that can be seen on the original Google homepage.
--A clone of the footer on the actual webpage.

@@ -124,21 +124,24 @@ html {
 } /*prevents browser to add an ugly permanent blue box around the button after clicking it*/
 
 .navbar {
-    position: absolute;
-    bottom: 93%;
-    left: 88%;
+    position: fixed;
+    float: right;
+    right: 0px;
+    top: 16px;
+    margin-right: 30px;
+    text-align: right;
 }
 
 ul {
         list-style-type: none;
-        margin: 0;
         padding: 5px;
         overflow: hidden;
+        margin: 0;
 }
 
 li {
     float: left;
-    padding: 8px;
+    padding: 10px;
 }
 
 li a {
@@ -164,21 +167,54 @@ li a {
     background-position: center;
 }
 
-.navbar a.user {
-    opacity: 0.0;
-    font-size: 20px;
-    padding-left: 10px;
+.signIn > a {
+color: white;
+background-position: center;
+bottom: 15%;
+text-decoration: none;
+font-size: 13.5px;
 }
 
-.navbar li.user {
-    background: url("../images/u.png") no-repeat;
-    background-size: 32px 32px;
-    border-radius: 50%;
-    display: block;
-    margin: -1px;
+.signIn {
+    background-color: rgb(33, 117, 243);
+    border-style: none;
+    border-radius: 3px 3px 3px 3px;
+    margin: -5px;
     overflow: hidden;
     position: center;
-    height: 16px;
-    width: 16px;
-    z-index: 0;
+    z-index: 0; 
+    padding: 5px 8px 5px 8px;
+}
+
+.signIn:active {
+    background-color: rgb(22, 71, 145);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    border-top: 0.1px rgb(219, 219, 219) solid;
+    padding-right: 1480px;   
+}
+
+.footer a {
+    color: rgb(94, 94, 94);  
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footerLeft {
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: -5px;
+}
+
+.footerRight {
+    float: right;
+    text-align: right;
+    margin-left: -1000px;
+    margin-right: -1470px;
 }
